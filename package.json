@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "author": "wavegate <cc.frankee@gmail.com>",
+  "scripts": {
+    "build": "prisma generate && umi build",
+    "dev": "umi dev",
+    "postinstall": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "umi": "^4.0.36"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "prisma": "^4.7.1",
+    "typescript": "^4.1.2",
+    "@umijs/plugins": "^4.0.36",
+    "tailwindcss": "^3"
+  }
+}
